@@ -11,6 +11,8 @@ Each topic folder typically contains:
 - Comments – short explanations for clarity
 
 Progress
+
+
 01 - Introduction to NumPy
 
 (New topics are added as I continue learning.)
