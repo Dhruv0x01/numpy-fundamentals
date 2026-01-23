@@ -15,6 +15,8 @@ Progress
 
 01 - Introduction to NumPy
 
+02 - Data Types
+
 (New topics are added as I continue learning.)
 
 Requirements
