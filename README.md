@@ -19,6 +19,7 @@ Progress
 
 03 - Multidimensional Array
 
+04 - Reshape NumPy Array
 
 (New topics are added as I continue learning.)
 
