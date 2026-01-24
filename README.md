@@ -27,6 +27,8 @@ Progress
 
 07 - NumPy Broadcasting
 
+08 - NumPy Functions
+
 (New topics are added as I continue learning.)
 
 Requirements
