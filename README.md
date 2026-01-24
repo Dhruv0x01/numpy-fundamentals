@@ -25,6 +25,8 @@ Progress
 
 06 - Arithmetic in NumPy
 
+07 - NumPy Broadcasting
+
 (New topics are added as I continue learning.)
 
 Requirements
