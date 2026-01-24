@@ -23,6 +23,8 @@ Progress
 
 05 - Slicing in NumPy
 
+06 - Arithmetic in NumPy
+
 (New topics are added as I continue learning.)
 
 Requirements
