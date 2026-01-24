@@ -21,6 +21,8 @@ Progress
 
 04 - Reshape NumPy Array
 
+05 - Slicing in NumPy
+
 (New topics are added as I continue learning.)
 
 Requirements
