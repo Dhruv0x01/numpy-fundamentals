@@ -17,6 +17,9 @@ Progress
 
 02 - Data Types
 
+03 - Multidimensional Array
+
+
 (New topics are added as I continue learning.)
 
 Requirements
