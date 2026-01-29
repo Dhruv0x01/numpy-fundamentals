@@ -29,6 +29,8 @@ Progress
 
 08 - NumPy Functions
 
+09 - Aggregate Functions
+
 (New topics are added as I continue learning.)
 
 Requirements
