@@ -31,6 +31,8 @@ Progress
 
 09 - Aggregate Functions
 
+10 - Filtering
+
 (New topics are added as I continue learning.)
 
 Requirements
