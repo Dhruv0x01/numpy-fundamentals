@@ -48,7 +48,9 @@ print(scores == 100)  #We are seeing if any of the element of the scores is equa
 print(scores >= 60)
 print(scores < 60)
 
-scores[scores<60] = 0 #basically any element which is under 60 will be considered 0/fail, this is used for filtering
+#Filtering
+#variablename[condition] = whatever you want those satisfying condition to be turned into
+scores[scores<60] = 0 #basically any element which is under 60 will be considered 0/fail
 print(scores)
 
 

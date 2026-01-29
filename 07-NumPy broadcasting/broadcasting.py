@@ -6,9 +6,9 @@ import numpy as np
 # Two arrays are compatible for broadcasting if:-
 # For each dimension(layer, column, row) 
 
-# The dimensions have the same size. 
+# The dimensions have the same size. eg two matrice with dimension 3x4
 # OR
-# One of the dimensions has a size of 1.
+# One of the dimensions has a size of 1. eg matrics 1 = 3x1, matrics = 1x5
 
 array1 = np.array([[1, 2, 3, 4]])  #2d array with only one row and 4 column (1x4)
 
@@ -58,6 +58,18 @@ print(first.shape)
 print(second.shape)
 print(first*second)
 
+
+eg = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+eg = eg.reshape(12, 1)
+
+eg1 = np.array([56, 15, 123, 11, 2])
+eg1 = eg1.reshape(1, 5)
+
+print(eg) #12x1 matrix
+print('---')
+print(eg1) #1x5 matrix
+print('---')
+print(eg*eg1) #became 12x5
 
 
 

@@ -21,8 +21,8 @@ print(f"{int_array .nbytes} bytes") # the array use 40 bytes, 8 bits = 1 byte , 
 print("After changing dtype")
 int_array= np.array([1, 2, 3, 4, 5], dtype = np.int8) #It doesn't matter much rn as we have only 5 elements
 print(int_array)                          #But it's really good in case of very high number of elements say 1 million
-print(int_array.dtype)
-print(f"{int_array.nbytes} bytes")
+print(int_array.dtype) #int8
+print(f"{int_array.nbytes} bytes")  #8 bits = 1 byte, hence 5 elements with 1 byte, = 5 bytes
 
 #int8 can only hold number from -128 to 127
 #int16"""""""""""""""""""" from -32,768 to 32,767
@@ -33,21 +33,21 @@ print("---------------------------")
 print("Floating point number")
 float_array = np.array([1.2, 2.3, 4.2, -8.9, 10.21])
 print(float_array)
-print(float_array.dtype)
-print(f"{float_array.nbytes} bytes")
+print(float_array.dtype) #float64, hence 64 bits is used to store each element
+print(f"{float_array.nbytes} bytes") #8 bits = 1 byte, 64 bits = 8 bytes, 5 elements * 8 bytes each = 40 bytes
 
 print("After changing dtype")
 float_array = np.array([1.2, 2.3, 4.2, -8.9, 10.21], dtype = np.float16)
 print(float_array)
-print(float_array.dtype)
-print(f"{float_array.nbytes} bytes")
+print(float_array.dtype) #float16
+print(f"{float_array.nbytes} bytes") #8 bits = 1 byte, 16 bits = 2 byes each, 10 bytes total
 
 print("---------------------------")
 print("Boolean")
-bool_array = np.array([0, 1, 2, 3, 4, 5], dtype = np.bool_)  #.bool_ is for numpy boolean, .bool is the python boolean
+bool_array = np.array([0, 12, 2, 3.25, -4, 5], dtype = np.bool_)  #.bool_ is for numpy boolean, .bool is the python boolean
 print(bool_array)   #anything non-zero will be considered true 
-print(bool_array.dtype)
-print(f"{bool_array.nbytes} bytes")
+print(bool_array.dtype) #bool
+print(f"{bool_array.nbytes} bytes") #1 byte each, 6 bytes total
 
 print("---------------------------")
 print("Strings")
