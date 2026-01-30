@@ -35,6 +35,8 @@ Progress
 
 11 - Random Numbers
 
+12 - Save and Load NumPy array
+
 (New topics are added as I continue learning.)
 
 Requirements
